@@ -6,7 +6,7 @@ const koaBody = require('koa-body');
 
 const app = new Koa();
 app.use(cors({
-    origin: '',
+    origin: 'https://sergl82.github.io',
 }));
 app.use(koaBody({ json: true }));
 
